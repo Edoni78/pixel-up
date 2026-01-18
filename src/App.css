@@ -1,6 +1,13 @@
-:root {
+/* :root {
   --color-bg-main: #F6F0D7;
   --color-bg-surface: #C5D89D;
   --color-primary: #9CAB84;
   --color-secondary: #89986D;
+} */
+
+:root {
+  --color-bg-main: #FFFFFF;     /* background kryesor */
+  --color-bg-surface: #BDE8F5;  /* section / card background */
+  --color-primary: #4988C4;     /* CTA, links, accents */
+  --color-secondary: #0F2854;   /* headings, navbar, footer */
 }

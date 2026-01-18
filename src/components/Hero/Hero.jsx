@@ -1,14 +1,28 @@
 import React from "react";
+import heroVideo from "../../assets/videos/hero.mp4"; 
 import "./Hero.css";
 
 const Hero = () => {
   return (
     <section className="hero">
+      {/* VIDEO BACKGROUND */}
+      <video
+        className="hero__video"
+        src={heroVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+
+      {/* OVERLAY */}
+      <div className="hero__overlay" />
+
+      {/* CONTENT */}
       <div className="hero__container">
-        {/* LEFT CONTENT */}
         <div className="hero__content">
           <h1>
-            Websites that <span>grow</span> your business
+            Websites that <span className="bounce">grow</span> your business
           </h1>
 
           <p>
@@ -23,18 +37,6 @@ const Hero = () => {
             <a href="#services" className="btn-secondary">
               Our Services
             </a>
-          </div>
-        </div>
-
-        {/* RIGHT VISUAL */}
-        <div className="hero__visual">
-          <div className="hero__card">
-            <div className="hero__mock-header" />
-            <div className="hero__mock-body">
-              <span />
-              <span />
-              <span />
-            </div>
           </div>
         </div>
       </div>

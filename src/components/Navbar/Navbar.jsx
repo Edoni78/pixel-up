@@ -1,15 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 2);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="navbar">
+    <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar__container">
         {/* Logo */}
-        <div className="navbar__logo">
-          <Link to="/">PixelUp</Link>
-        </div>
+        <Link to="/" className="navbar__logo">
+          <img src={logo} alt="PixelUp Logo" />
+          <span>PixelUp</span>
+        </Link>
 
         {/* Links */}
         <nav className="navbar__links">

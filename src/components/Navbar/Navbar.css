@@ -1,8 +1,8 @@
 :root {
-  --color-bg-main: #F6F0D7;
-  --color-bg-surface: #C5D89D;
-  --color-primary: #9CAB84;
-  --color-secondary: #89986D;
+  --color-bg-main: #f6f0d7;
+  --color-bg-surface: #c5d89d;
+  --color-primary: #9cab84;
+  --color-secondary: #89986d;
 }
 
 /* =========================
@@ -10,11 +10,19 @@
 ========================= */
 .navbar {
   width: 100%;
-  background-color: var(--color-bg-main);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+/* =========================
+   SCROLLED STATE
+========================= */
+.navbar.scrolled {
+  background-color: var(--color-bg-main);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* =========================
@@ -32,12 +40,24 @@
 /* =========================
    LOGO
 ========================= */
-.navbar__logo a {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--color-secondary);
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
-  letter-spacing: 0.5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.navbar.scrolled .navbar__logo {
+  color: var(--color-secondary);
+}
+
+.navbar__logo img {
+  height: 34px;
+  width: auto;
 }
 
 /* =========================
@@ -52,9 +72,13 @@
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
-  color: var(--color-secondary);
+  color: #ffffff;
   position: relative;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
+}
+
+.navbar.scrolled .navbar__links a {
+  color: var(--color-secondary);
 }
 
 .navbar__links a::after {
@@ -68,10 +92,6 @@
   transition: width 0.25s ease;
 }
 
-.navbar__links a:hover {
-  color: var(--color-primary);
-}
-
 .navbar__links a:hover::after {
   width: 100%;
 }
@@ -80,19 +100,24 @@
    CTA BUTTON
 ========================= */
 .btn-primary {
-  background-color: var(--color-primary);
-  color: #ffffff;
-  padding: 10px 20px;
+  background-color: #ffffff;
+  color: var(--color-primary);
+  padding: 10px 22px;
   border-radius: 999px;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.25s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled .btn-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: var(--color-secondary);
   transform: translateY(-1px);
+  opacity: 0.9;
 }
 
 /* =========================

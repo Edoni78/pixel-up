@@ -1,0 +1,121 @@
+:root {
+  --color-bg-main: #ffffff;
+  --color-primary: #4988c4;
+  --color-secondary: #0f2854;
+}
+
+/* =========================
+   FAQ SECTION
+========================= */
+.faq {
+  background-color: var(--color-bg-main);
+  padding: 120px 24px;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.faq__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* =========================
+   HEADER
+========================= */
+.faq__header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.faq__header h2 {
+  font-size: 42px;
+  color: var(--color-secondary);
+  margin-bottom: 14px;
+}
+
+.faq__header h2 span {
+  color: var(--color-primary);
+}
+
+.faq__header p {
+  font-size: 17px;
+  color: rgba(15, 40, 84, 0.85);
+}
+
+/* =========================
+   FAQ LIST
+========================= */
+.faq__list {
+  border-top: 1px solid rgba(15, 40, 84, 0.15);
+}
+
+/* =========================
+   FAQ ITEM
+========================= */
+.faq__item {
+  border-bottom: 1px solid rgba(15, 40, 84, 0.15);
+  padding: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.faq__item:hover {
+  background: linear-gradient(
+    to right,
+    rgba(73, 136, 196, 0.06),
+    transparent
+  );
+}
+
+/* =========================
+   QUESTION
+========================= */
+.faq__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.faq__question svg {
+  color: var(--color-primary);
+  font-size: 16px;
+}
+
+/* =========================
+   ANSWER
+========================= */
+.faq__answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.faq__item.active .faq__answer {
+  max-height: 200px;
+  opacity: 1;
+  margin-top: 14px;
+}
+
+.faq__answer p {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: rgba(15, 40, 84, 0.85);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 480px) {
+  .faq__header h2 {
+    font-size: 34px;
+  }
+
+  .faq__question {
+    font-size: 16px;
+  }
+}
