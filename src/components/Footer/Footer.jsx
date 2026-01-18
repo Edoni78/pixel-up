@@ -42,7 +42,11 @@ const Footer = () => {
         {/* CONTACT */}
         <div className="footer__col">
           <h4>Contact</h4>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaWhatsapp /> WhatsApp
           </a>
           <a href="mailto:hello@pixelup.com">
@@ -56,19 +60,24 @@ const Footer = () => {
           <p>Get tips & updates about web design.</p>
 
           <div className="newsletter__form">
-            <input type="email" placeholder="Your email address" />
-            <button>
+            <input
+              type="email"
+              placeholder="Your email address"
+              aria-label="Email address"
+            />
+            <button aria-label="Subscribe">
               <FaPaperPlane />
             </button>
           </div>
 
+          {/* SOCIAL (BUTTONS, not anchors) */}
           <div className="footer__social">
-            <a href="#" aria-label="Instagram">
+            <button aria-label="Instagram">
               <FaInstagram />
-            </a>
-            <a href="#" aria-label="LinkedIn">
+            </button>
+            <button aria-label="LinkedIn">
               <FaLinkedin />
-            </a>
+            </button>
           </div>
         </div>
       </div>
