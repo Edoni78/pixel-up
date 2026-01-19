@@ -1,0 +1,192 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "contactUs": "Contact Us",
+    "language": {
+      "english": "English",
+      "german": "German",
+      "albanian": "Albanian"
+    }
+  },
+  
+  "hero": {
+    "title": "Websites that",
+    "highlight": "grow",
+    "titleEnd": "your business",
+    "description": "PixelUp helps businesses build modern, fast and professional websites that convert visitors into customers.",
+    "actions": {
+      "primary": "Request a Website",
+      "secondary": "Our Services"
+    }
+  },
+  "about": {
+    "title": "About",
+    "brand": "PixelUp",
+    "paragraphs": [
+      "PixelUp is a digital studio focused on creating modern, clean and high-converting websites for businesses that want to stand out online.",
+      "We combine strategy, design and development to deliver fast, reliable and scalable web solutions tailored to your business goals."
+    ],
+    "list": [
+      "Custom website design",
+      "Business-focused solutions",
+      "Fast delivery & clear communication",
+      "Long-term support"
+    ],
+    "cards": [
+      {
+        "title": "Clean Design",
+        "text": "Minimal, modern interfaces that reflect your brand and build trust."
+      },
+      {
+        "title": "Performance",
+        "text": "Optimized websites that load fast and work perfectly on all devices."
+      },
+      {
+        "title": "Growth Ready",
+        "text": "Scalable foundations so your website grows together with your business."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our",
+    "highlight": "Services",
+    "description": "Everything you need to launch, grow and scale your online presence with confidence.",
+    "items": [
+      {
+        "title": "Business Websites",
+        "text": "Modern, fast and professional websites built to represent your brand and convert visitors.",
+        "badge": "Most Popular"
+      },
+      {
+        "title": "Landing Pages",
+        "text": "High-converting landing pages designed for ads, promotions and product launches."
+      },
+      {
+        "title": "E-commerce",
+        "text": "Online stores with secure payments, product management and smooth user experience."
+      },
+      {
+        "title": "Maintenance & Support",
+        "text": "Ongoing updates, performance optimization and technical support for peace of mind."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Why choose",
+    "brand": "PixelUp",
+    "intro": "We don’t just build websites. We help businesses create a strong digital presence that drives real results.",
+    "features": [
+      {
+        "title": "Fast Delivery",
+        "text": "Get your website live quickly without sacrificing quality."
+      },
+      {
+        "title": "Clean & Modern Design",
+        "text": "Designs that look professional and build trust instantly."
+      },
+      {
+        "title": "Business Focused",
+        "text": "Every decision is made with your business goals in mind."
+      },
+      {
+        "title": "Growth Ready",
+        "text": "Scalable foundations that grow together with your business."
+      }
+    ]
+  },
+  "process": {
+    "title": "Our",
+    "highlight": "Process",
+    "description": "A simple and transparent workflow that turns ideas into powerful websites.",
+    "steps": [
+      {
+        "title": "Consultation",
+        "desc": "We discuss your goals, audience and requirements.",
+        "details": "We start with a detailed consultation via Google Meet. We discuss your business goals, target audience, competitors, and expectations. This step ensures we fully understand your vision before moving forward."
+      },
+      {
+        "title": "Design",
+        "desc": "We create a clean, modern and user-focused design.",
+        "details": "Based on the consultation, we design a modern and user-friendly interface. You will review the design, request changes, and approve the final layout before development begins."
+      },
+      {
+        "title": "Development",
+        "desc": "We build a fast, responsive and scalable website.",
+        "details": "We turn the approved design into a fully functional website. The site is optimized for speed, mobile responsiveness, and scalability using modern technologies."
+      },
+      {
+        "title": "Launch",
+        "desc": "Your website goes live, optimized and ready to grow.",
+        "details": "After final testing, your website is deployed and goes live. We ensure everything works perfectly and provide guidance for future updates and growth."
+      }
+    ],
+    "more": "Click for more",
+    "cta": "Book a Consultation"
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "highlight": "Questions",
+    "description": "Everything you need to know before starting your project with PixelUp.",
+    "items": [
+      {
+        "q": "How long does it take to build a website?",
+        "a": "Most websites are completed within 7–14 days, depending on the size and complexity of the project."
+      },
+      {
+        "q": "Do you offer consultations before starting?",
+        "a": "Yes. We start every project with a free consultation via Google Meet to understand your goals and needs."
+      },
+      {
+        "q": "Will my website be mobile friendly?",
+        "a": "Absolutely. Every website we build is fully responsive and optimized for all devices."
+      },
+      {
+        "q": "Can I request changes after the design is ready?",
+        "a": "Yes. You can request revisions during the design phase before development starts."
+      },
+      {
+        "q": "Do you provide support after launch?",
+        "a": "Yes. We offer ongoing maintenance, updates, and support packages after your website goes live."
+      }
+    ]
+  },
+    "cta": {
+    "title": "Ready to",
+    "highlight": "grow",
+    "titleEnd": "your business online?",
+    "description": "Let’s talk about your idea. We’re fully online and available for consultations via WhatsApp.",
+    "whatsappText": "Hello PixelUp, I am interested in building a website for my business.",
+    "button": "Chat with us on WhatsApp"
+  },
+  
+  "footer": {
+    "brand": {
+      "name": "PixelUp",
+      "description": "We design and build modern websites that help businesses grow online. Fully remote. Fully focused."
+    },
+    "pages": {
+      "title": "Pages",
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "whatsapp": "WhatsApp",
+      "email": "hello@pixelup.com",
+      "whatsappText": "Hello PixelUp, I am interested in building a website."
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Get tips & updates about web design.",
+      "placeholder": "Your email address",
+      "ariaEmail": "Email address",
+      "ariaSubscribe": "Subscribe"
+    },
+    "copyright": "All rights reserved."
+  }
+}

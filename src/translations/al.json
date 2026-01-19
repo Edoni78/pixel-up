@@ -1,0 +1,190 @@
+{
+  "navbar": {
+    "home": "Ballina",
+    "about": "Rreth nesh",
+    "services": "Shërbimet",
+    "contact": "Kontakti",
+    "contactUs": "Na kontaktoni",
+    "language": {
+      "english": "Anglisht",
+      "german": "Gjermanisht",
+      "albanian": "Shqip"
+    }
+  },
+  "hero": {
+    "title": "Faqe web që",
+    "highlight": "rrisin",
+    "titleEnd": "biznesin tuaj",
+    "description": "PixelUp ndihmon bizneset të ndërtojnë faqe moderne, të shpejta dhe profesionale që i kthejnë vizitorët në klientë.",
+    "actions": {
+      "primary": "Kërko një faqe web",
+      "secondary": "Shërbimet tona"
+    }
+  },
+  "about": {
+    "title": "Rreth",
+    "brand": "PixelUp",
+    "paragraphs": [
+      "PixelUp është një studio digjitale e fokusuar në krijimin e faqeve moderne, të pastra dhe me konvertim të lartë për biznese që duan të dallohen online.",
+      "Ne kombinojmë strategjinë, dizajnin dhe zhvillimin për të ofruar zgjidhje web të shpejta, të besueshme dhe të shkallëzueshme, të përshtatura sipas qëllimeve të biznesit tuaj."
+    ],
+    "list": [
+      "Dizajn web i personalizuar",
+      "Zgjidhje të fokusuara në biznes",
+      "Dorëzim i shpejtë & komunikim i qartë",
+      "Mbështetje afatgjate"
+    ],
+    "cards": [
+      {
+        "title": "Dizajn i Pastër",
+        "text": "Ndërfaqe minimale dhe moderne që pasqyrojnë markën tuaj dhe ndërtojnë besim."
+      },
+      {
+        "title": "Performancë",
+        "text": "Faqe të optimizuara që ngarkohen shpejt dhe funksionojnë perfekt në çdo pajisje."
+      },
+      {
+        "title": "Gati për Rritje",
+        "text": "Baza të shkallëzueshme që rriten së bashku me biznesin tuaj."
+      }
+    ]
+  },
+  "services": {
+    "title": "Shërbimet",
+    "highlight": "Tona",
+    "description": "Gjithçka që ju nevojitet për të nisur, rritur dhe shkallëzuar prezencën tuaj online me besim.",
+    "items": [
+      {
+        "title": "Faqe për Biznese",
+        "text": "Faqe moderne, të shpejta dhe profesionale që përfaqësojnë markën tuaj dhe rrisin konvertimet.",
+        "badge": "Më e kërkuara"
+      },
+      {
+        "title": "Landing Pages",
+        "text": "Faqe me konvertim të lartë për reklama, promovime dhe lansime produktesh."
+      },
+      {
+        "title": "E-commerce",
+        "text": "Dyqane online me pagesa të sigurta, menaxhim produktesh dhe eksperiencë të qetë përdorimi."
+      },
+      {
+        "title": "Mirëmbajtje & Mbështetje",
+        "text": "Përditësime të vazhdueshme, optimizim performance dhe mbështetje teknike."
+      }
+    ]
+  },
+   "whyUs": {
+    "title": "Pse të zgjidhni",
+    "brand": "PixelUp",
+    "intro": "Ne nuk ndërtojmë vetëm faqe web. Ne ndihmojmë bizneset të krijojnë një prezencë digjitale të fortë që sjell rezultate reale.",
+    "features": [
+      {
+        "title": "Dorëzim i Shpejtë",
+        "text": "Faqja juaj publikohet shpejt pa kompromis në cilësi."
+      },
+      {
+        "title": "Dizajn i Pastër & Modern",
+        "text": "Dizajne profesionale që krijojnë besim menjëherë."
+      },
+      {
+        "title": "Fokus në Biznes",
+        "text": "Çdo vendim merret duke pasur parasysh qëllimet e biznesit tuaj."
+      },
+      {
+        "title": "Gati për Rritje",
+        "text": "Baza të shkallëzueshme që rriten së bashku me biznesin tuaj."
+      }
+    ]
+  },
+  "process": {
+    "title": "Procesi",
+    "highlight": "Ynë",
+    "description": "Një proces i thjeshtë dhe transparent që i shndërron idetë në faqe web të fuqishme.",
+    "steps": [
+      {
+        "title": "Konsultim",
+        "desc": "Diskutojmë qëllimet, audiencën dhe kërkesat tuaja.",
+        "details": "Fillojmë me një konsultim të detajuar përmes Google Meet. Diskutojmë qëllimet e biznesit, audiencën, konkurrencën dhe pritshmëritë për të kuptuar plotësisht vizionin tuaj."
+      },
+      {
+        "title": "Dizajn",
+        "desc": "Krijojmë dizajn të pastër, modern dhe të fokusuar te përdoruesi.",
+        "details": "Bazuar në konsultim, krijojmë një ndërfaqe moderne dhe miqësore. Ju rishikoni dizajnin, kërkoni ndryshime dhe aprovoni versionin final."
+      },
+      {
+        "title": "Zhvillim",
+        "desc": "Ndërtojmë faqe të shpejtë, responsive dhe të shkallëzueshme.",
+        "details": "Dizajni i aprovuar shndërrohet në një faqe funksionale, e optimizuar për shpejtësi, pajisje mobile dhe rritje."
+      },
+      {
+        "title": "Publikim",
+        "desc": "Faqja publikohet, e optimizuar dhe gati për rritje.",
+        "details": "Pas testimeve finale, faqja publikohet. Sigurohemi që çdo gjë funksionon dhe ju udhëzojmë për hapat e ardhshëm."
+      }
+    ],
+    "more": "Kliko për më shumë",
+    "cta": "Rezervo Konsultim"
+  },
+  "faq": {
+    "title": "Pyetje të",
+    "highlight": "Shpeshta",
+    "description": "Gjithçka që duhet të dini para se të filloni projektin tuaj me PixelUp.",
+    "items": [
+      {
+        "q": "Sa kohë nevojitet për ndërtimin e një faqeje web?",
+        "a": "Shumica e faqeve përfundojnë brenda 7–14 ditësh, varësisht nga madhësia dhe kompleksiteti i projektit."
+      },
+      {
+        "q": "A ofroni konsultim para fillimit?",
+        "a": "Po. Çdo projekt fillon me një konsultim falas përmes Google Meet për të kuptuar qëllimet dhe nevojat tuaja."
+      },
+      {
+        "q": "A do të jetë faqja ime e përshtatshme për mobile?",
+        "a": "Patjetër. Çdo faqe që ndërtojmë është plotësisht responsive dhe e optimizuar për të gjitha pajisjet."
+      },
+      {
+        "q": "A mund të kërkoj ndryshime pas dizajnit?",
+        "a": "Po. Gjatë fazës së dizajnit mund të kërkoni ndryshime para se të fillojë zhvillimi."
+      },
+      {
+        "q": "A ofroni mbështetje pas publikimit?",
+        "a": "Po. Ofrojmë mirëmbajtje, përditësime dhe mbështetje të vazhdueshme edhe pas publikimit të faqes."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Gati për të",
+    "highlight": "rritur",
+    "titleEnd": "biznesin tuaj online?",
+    "description": "Le të flasim për idenë tuaj. Jemi plotësisht online dhe të disponueshëm për konsultime përmes WhatsApp.",
+    "whatsappText": "Përshëndetje PixelUp, jam i interesuar për ndërtimin e një faqeje web për biznesin tim.",
+    "button": "Na kontaktoni në WhatsApp"
+  },
+  "footer": {
+    "brand": {
+      "name": "PixelUp",
+      "description": "Ne dizajnojmë dhe zhvillojmë faqe moderne që ndihmojnë bizneset të rriten online. Plotësisht remote. Plotësisht të fokusuar."
+    },
+    "pages": {
+      "title": "Faqet",
+      "home": "Ballina",
+      "about": "Rreth nesh",
+      "services": "Shërbimet",
+      "contact": "Kontakti"
+    },
+    "contact": {
+      "title": "Kontakti",
+      "whatsapp": "WhatsApp",
+      "email": "hello@pixelup.com",
+      "whatsappText": "Përshëndetje PixelUp, jam i interesuar për ndërtimin e një faqeje web."
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Merrni këshilla dhe përditësime rreth dizajnit web.",
+      "placeholder": "Adresa juaj e emailit",
+      "ariaEmail": "Adresa e emailit",
+      "ariaSubscribe": "Abonohu"
+    },
+    "copyright": "Të gjitha të drejtat e rezervuara."
+  }
+}

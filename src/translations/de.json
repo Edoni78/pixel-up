@@ -1,0 +1,190 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "contactUs": "Kontakt aufnehmen",
+    "language": {
+      "english": "Englisch",
+      "german": "Deutsch",
+      "albanian": "Albanisch"
+    }
+  },
+  "hero": {
+    "title": "Websites, die",
+    "highlight": "wachsen",
+    "titleEnd": "Ihr Unternehmen",
+    "description": "PixelUp hilft Unternehmen dabei, moderne, schnelle und professionelle Websites zu erstellen, die Besucher in Kunden verwandeln.",
+    "actions": {
+      "primary": "Website anfragen",
+      "secondary": "Unsere Leistungen"
+    }
+  },
+  "about": {
+    "title": "Über",
+    "brand": "PixelUp",
+    "paragraphs": [
+      "PixelUp ist ein digitales Studio, das sich auf moderne, saubere und conversionstarke Websites für Unternehmen spezialisiert hat, die online hervorstechen möchten.",
+      "Wir kombinieren Strategie, Design und Entwicklung, um schnelle, zuverlässige und skalierbare Weblösungen zu liefern, die auf Ihre Geschäftsziele zugeschnitten sind."
+    ],
+    "list": [
+      "Individuelles Webdesign",
+      "Geschäftsorientierte Lösungen",
+      "Schnelle Umsetzung & klare Kommunikation",
+      "Langfristiger Support"
+    ],
+    "cards": [
+      {
+        "title": "Sauberes Design",
+        "text": "Minimale, moderne Oberflächen, die Ihre Marke widerspiegeln und Vertrauen schaffen."
+      },
+      {
+        "title": "Performance",
+        "text": "Optimierte Websites, die schnell laden und auf allen Geräten perfekt funktionieren."
+      },
+      {
+        "title": "Wachstumsbereit",
+        "text": "Skalierbare Grundlagen, damit Ihre Website mit Ihrem Unternehmen wächst."
+      }
+    ]
+  },
+  "services": {
+    "title": "Unsere",
+    "highlight": "Leistungen",
+    "description": "Alles, was Sie benötigen, um Ihre Online-Präsenz sicher zu starten, zu erweitern und zu skalieren.",
+    "items": [
+      {
+        "title": "Business-Websites",
+        "text": "Moderne, schnelle und professionelle Websites, die Ihre Marke repräsentieren und Besucher konvertieren.",
+        "badge": "Beliebt"
+      },
+      {
+        "title": "Landing Pages",
+        "text": "Conversion-starke Landing Pages für Werbung, Kampagnen und Produkteinführungen."
+      },
+      {
+        "title": "E-Commerce",
+        "text": "Online-Shops mit sicheren Zahlungen, Produktverwaltung und reibungsloser Benutzererfahrung."
+      },
+      {
+        "title": "Wartung & Support",
+        "text": "Regelmäßige Updates, Performance-Optimierung und technischer Support für maximale Sicherheit."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Warum",
+    "brand": "PixelUp",
+    "intro": "Wir erstellen nicht nur Websites. Wir helfen Unternehmen, eine starke digitale Präsenz aufzubauen, die echte Ergebnisse liefert.",
+    "features": [
+      {
+        "title": "Schnelle Umsetzung",
+        "text": "Ihre Website geht schnell online – ohne Qualitätsverlust."
+      },
+      {
+        "title": "Sauberes & modernes Design",
+        "text": "Professionelle Designs, die sofort Vertrauen schaffen."
+      },
+      {
+        "title": "Geschäftsorientiert",
+        "text": "Jede Entscheidung wird mit Ihren Geschäftszielen im Fokus getroffen."
+      },
+      {
+        "title": "Wachstumsbereit",
+        "text": "Skalierbare Grundlagen, die mit Ihrem Unternehmen wachsen."
+      }
+    ]
+  },
+  "process": {
+    "title": "Unser",
+    "highlight": "Ablauf",
+    "description": "Ein einfacher und transparenter Prozess, der Ideen in leistungsstarke Websites verwandelt.",
+    "steps": [
+      {
+        "title": "Beratung",
+        "desc": "Wir besprechen Ihre Ziele, Zielgruppe und Anforderungen.",
+        "details": "Wir starten mit einer ausführlichen Beratung über Google Meet. Dabei analysieren wir Ihre Geschäftsziele, Zielgruppe, Mitbewerber und Erwartungen, um Ihre Vision vollständig zu verstehen."
+      },
+      {
+        "title": "Design",
+        "desc": "Wir erstellen ein sauberes, modernes und benutzerorientiertes Design.",
+        "details": "Basierend auf der Beratung entwerfen wir eine moderne und benutzerfreundliche Oberfläche. Sie überprüfen das Design, geben Feedback und genehmigen das finale Layout."
+      },
+      {
+        "title": "Entwicklung",
+        "desc": "Wir entwickeln eine schnelle, responsive und skalierbare Website.",
+        "details": "Das genehmigte Design wird in eine voll funktionsfähige Website umgesetzt, optimiert für Geschwindigkeit, Mobilgeräte und Skalierbarkeit."
+      },
+      {
+        "title": "Launch",
+        "desc": "Ihre Website geht live – optimiert und bereit zu wachsen.",
+        "details": "Nach finalen Tests wird Ihre Website veröffentlicht. Wir stellen sicher, dass alles perfekt funktioniert, und geben Hinweise für zukünftiges Wachstum."
+      }
+    ],
+    "more": "Mehr erfahren",
+    "cta": "Beratung buchen"
+  },
+   "faq": {
+    "title": "Häufig gestellte",
+    "highlight": "Fragen",
+    "description": "Alles, was Sie wissen müssen, bevor Sie Ihr Projekt mit PixelUp starten.",
+    "items": [
+      {
+        "q": "Wie lange dauert es, eine Website zu erstellen?",
+        "a": "Die meisten Websites werden innerhalb von 7–14 Tagen fertiggestellt, abhängig von Umfang und Komplexität des Projekts."
+      },
+      {
+        "q": "Bieten Sie vor Projektbeginn eine Beratung an?",
+        "a": "Ja. Jedes Projekt beginnt mit einer kostenlosen Beratung über Google Meet, um Ihre Ziele und Anforderungen zu verstehen."
+      },
+      {
+        "q": "Ist meine Website für mobile Geräte optimiert?",
+        "a": "Absolut. Jede Website, die wir erstellen, ist vollständig responsive und für alle Geräte optimiert."
+      },
+      {
+        "q": "Kann ich nach dem Design Änderungen anfordern?",
+        "a": "Ja. Während der Designphase können Sie Änderungen anfordern, bevor die Entwicklung beginnt."
+      },
+      {
+        "q": "Bieten Sie Support nach dem Launch an?",
+        "a": "Ja. Wir bieten fortlaufende Wartung, Updates und Support-Pakete nach dem Livegang Ihrer Website an."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit,",
+    "highlight": "Ihr",
+    "titleEnd": "Online-Business zu vergrößern?",
+    "description": "Lassen Sie uns über Ihre Idee sprechen. Wir sind vollständig online und für Beratungen über WhatsApp verfügbar.",
+    "whatsappText": "Hallo PixelUp, ich interessiere mich für die Erstellung einer Website für mein Unternehmen.",
+    "button": "Chatten Sie mit uns auf WhatsApp"
+  },
+  "footer": {
+    "brand": {
+      "name": "PixelUp",
+      "description": "Wir gestalten und entwickeln moderne Websites, die Unternehmen beim Online-Wachstum unterstützen. Vollständig remote. Voll fokussiert."
+    },
+    "pages": {
+      "title": "Seiten",
+      "home": "Startseite",
+      "about": "Über uns",
+      "services": "Leistungen",
+      "contact": "Kontakt"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "whatsapp": "WhatsApp",
+      "email": "hello@pixelup.com",
+      "whatsappText": "Hallo PixelUp, ich interessiere mich für die Erstellung einer Website."
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Erhalten Sie Tipps und Updates zum Webdesign.",
+      "placeholder": "Ihre E-Mail-Adresse",
+      "ariaEmail": "E-Mail-Adresse",
+      "ariaSubscribe": "Abonnieren"
+    },
+    "copyright": "Alle Rechte vorbehalten."
+  }
+}

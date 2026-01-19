@@ -1,31 +1,12 @@
 import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import "./FAQ.css";
-
-const faqs = [
-  {
-    q: "How long does it take to build a website?",
-    a: "Most websites are completed within 7–14 days, depending on the size and complexity of the project.",
-  },
-  {
-    q: "Do you offer consultations before starting?",
-    a: "Yes. We start every project with a free consultation via Google Meet to understand your goals and needs.",
-  },
-  {
-    q: "Will my website be mobile friendly?",
-    a: "Absolutely. Every website we build is fully responsive and optimized for all devices.",
-  },
-  {
-    q: "Can I request changes after the design is ready?",
-    a: "Yes. You can request revisions during the design phase before development starts.",
-  },
-  {
-    q: "Do you provide support after launch?",
-    a: "Yes. We offer ongoing maintenance, updates, and support packages after your website goes live.",
-  },
-];
+import { useLanguage } from "../../context/LanguageContext";
 
 const FAQ = () => {
+  const { t } = useLanguage();
+  const faq = t.faq;
+
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -35,20 +16,18 @@ const FAQ = () => {
   return (
     <section className="faq">
       <div className="faq__container">
+
         {/* HEADER */}
         <div className="faq__header">
           <h2>
-            Frequently Asked <span>Questions</span>
+            {faq.title} <span>{faq.highlight}</span>
           </h2>
-          <p>
-            Everything you need to know before starting your project with
-            PixelUp.
-          </p>
+          <p>{faq.description}</p>
         </div>
 
         {/* FAQ LIST */}
         <div className="faq__list">
-          {faqs.map((item, index) => (
+          {faq.items.map((item, index) => (
             <div
               key={index}
               className={`faq__item ${
@@ -67,6 +46,7 @@ const FAQ = () => {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

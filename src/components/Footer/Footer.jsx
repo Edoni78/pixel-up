@@ -8,69 +8,69 @@ import {
   FaPaperPlane,
 } from "react-icons/fa";
 import "./Footer.css";
+import { useLanguage } from "../../context/LanguageContext";
 
 const Footer = () => {
+  const { t } = useLanguage();
+  const footer = t.footer;
+
   const phoneNumber = "38349341719";
-  const message =
-    "Hello PixelUp, I am interested in building a website.";
 
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
+    footer.contact.whatsappText
   )}`;
 
   return (
     <footer className="footer">
       <div className="footer__container">
+
         {/* BRAND */}
         <div className="footer__brand">
-          <h3>PixelUp</h3>
-          <p>
-            We design and build modern websites that help businesses grow
-            online. Fully remote. Fully focused.
-          </p>
+          <h3>{footer.brand.name}</h3>
+          <p>{footer.brand.description}</p>
         </div>
 
         {/* LINKS */}
         <div className="footer__col">
-          <h4>Pages</h4>
-          <Link to="/">Home</Link>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
+          <h4>{footer.pages.title}</h4>
+          <Link to="/">{footer.pages.home}</Link>
+          <a href="#about">{footer.pages.about}</a>
+          <a href="#services">{footer.pages.services}</a>
+          <a href="#contact">{footer.pages.contact}</a>
         </div>
 
         {/* CONTACT */}
         <div className="footer__col">
-          <h4>Contact</h4>
+          <h4>{footer.contact.title}</h4>
           <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaWhatsapp /> WhatsApp
+            <FaWhatsapp /> {footer.contact.whatsapp}
           </a>
-          <a href="mailto:hello@pixelup.com">
-            <FaEnvelope /> hello@pixelup.com
+          <a href={`mailto:${footer.contact.email}`}>
+            <FaEnvelope /> {footer.contact.email}
           </a>
         </div>
 
         {/* NEWSLETTER */}
         <div className="footer__newsletter">
-          <h4>Newsletter</h4>
-          <p>Get tips & updates about web design.</p>
+          <h4>{footer.newsletter.title}</h4>
+          <p>{footer.newsletter.description}</p>
 
           <div className="newsletter__form">
             <input
               type="email"
-              placeholder="Your email address"
-              aria-label="Email address"
+              placeholder={footer.newsletter.placeholder}
+              aria-label={footer.newsletter.ariaEmail}
             />
-            <button aria-label="Subscribe">
+            <button aria-label={footer.newsletter.ariaSubscribe}>
               <FaPaperPlane />
             </button>
           </div>
 
-          {/* SOCIAL (BUTTONS, not anchors) */}
+          {/* SOCIAL */}
           <div className="footer__social">
             <button aria-label="Instagram">
               <FaInstagram />
@@ -80,11 +80,13 @@ const Footer = () => {
             </button>
           </div>
         </div>
+
       </div>
 
       {/* BOTTOM */}
       <div className="footer__bottom">
-        © {new Date().getFullYear()} PixelUp. All rights reserved.
+        © {new Date().getFullYear()} {footer.brand.name}.{" "}
+        {footer.copyright}
       </div>
     </footer>
   );

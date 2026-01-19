@@ -6,14 +6,25 @@ import {
   FaChartLine,
 } from "react-icons/fa";
 import "./WhyUs.css";
-
 import whyUsImg from "../../assets/images/whyUs.png";
+import { useLanguage } from "../../context/LanguageContext";
+
+const icons = [
+  <FaBolt size={30} />,
+  <FaCheckCircle size={30} />,
+  <FaHandshake size={30} />,
+  <FaChartLine size={30} />,
+];
 
 const WhyUs = () => {
+  const { t } = useLanguage();
+  const whyUs = t.whyUs;
+
   return (
     <section className="whyus">
       <div className="whyus__container">
-        {/* LEFT – ILLUSTRATION */}
+
+        {/* LEFT – IMAGE */}
         <div className="whyus__image">
           <img src={whyUsImg} alt="Why choose PixelUp" />
         </div>
@@ -21,47 +32,23 @@ const WhyUs = () => {
         {/* RIGHT – CONTENT */}
         <div className="whyus__content">
           <h2>
-            Why choose <span>PixelUp</span>
+            {whyUs.title} <span>{whyUs.brand}</span>
           </h2>
 
-          <p className="whyus__intro">
-            We don’t just build websites. We help businesses create a strong
-            digital presence that drives real results.
-          </p>
+          <p className="whyus__intro">{whyUs.intro}</p>
 
           <div className="whyus__features">
-            <div className="whyus__feature">
-              <FaBolt size={30} />
-              <div>
-                <h4>Fast Delivery</h4>
-                <p>Get your website live quickly without sacrificing quality.</p>
+            {whyUs.features.map((item, index) => (
+              <div className="whyus__feature" key={index}>
+                {icons[index]}
+                <div>
+                  <h4>{item.title}</h4>
+                  <p>{item.text}</p>
+                </div>
               </div>
-            </div>
-
-            <div className="whyus__feature">
-              <FaCheckCircle size={30} />
-              <div>
-                <h4>Clean & Modern Design</h4>
-                <p>Designs that look professional and build trust instantly.</p>
-              </div>
-            </div>
-
-            <div className="whyus__feature">
-              <FaHandshake size={30} />
-              <div>
-                <h4>Business Focused</h4>
-                <p>Every decision is made with your business goals in mind.</p>
-              </div>
-            </div>
-
-            <div className="whyus__feature">
-              <FaChartLine size={30} />
-              <div>
-                <h4>Growth Ready</h4>
-                <p>Scalable foundations that grow together with your business.</p>
-              </div>
-            </div>
+            ))}
           </div>
+
         </div>
       </div>
     </section>

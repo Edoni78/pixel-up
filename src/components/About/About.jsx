@@ -1,69 +1,39 @@
 import React from "react";
 import "./About.css";
+import { useLanguage } from "../../context/LanguageContext";
 
 const About = () => {
+  const { t } = useLanguage();
+  const about = t.about;
+
   return (
     <section className="about" id="about">
       <div className="about__container">
 
-
-         <div className="about__text">
+        <div className="about__text">
           <h2>
-            About <span>PixelUp</span>
+            {about.title} <span>{about.brand}</span>
           </h2>
 
-          <p>
-            PixelUp is a digital studio focused on creating modern, clean and
-            high-converting websites for businesses that want to stand out
-            online.
-          </p>
-
-          <p>
-            We combine strategy, design and development to deliver fast,
-            reliable and scalable web solutions tailored to your business
-            goals.
-          </p>
+          {about.paragraphs.map((p, i) => (
+            <p key={i}>{p}</p>
+          ))}
 
           <ul className="about__list">
-            <li>Custom website design</li>
-            <li>Business-focused solutions</li>
-            <li>Fast delivery & clear communication</li>
-            <li>Long-term support</li>
+            {about.list.map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
           </ul>
         </div>
 
-
-
-
         <div className="about__cards">
-          <div className="about__card">
-            <h3>Clean Design</h3>
-            <p>
-              Minimal, modern interfaces that reflect your brand and build
-              trust.
-            </p>
-          </div>
-
-          <div className="about__card">
-            <h3>Performance</h3>
-            <p>
-              Optimized websites that load fast and work perfectly on all
-              devices.
-            </p>
-          </div>
-
-          <div className="about__card">
-            <h3>Growth Ready</h3>
-            <p>
-              Scalable foundations so your website grows together with your
-              business.
-            </p>
-          </div>
+          {about.cards.map((card, i) => (
+            <div className="about__card" key={i}>
+              <h3>{card.title}</h3>
+              <p>{card.text}</p>
+            </div>
+          ))}
         </div>
-
-
-       
-
 
       </div>
     </section>

@@ -128,3 +128,101 @@
     display: none;
   }
 }
+
+.lang-switch {
+  position: relative;
+}
+
+.lang-switch button {
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.lang-switch button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Dropdown container */
+.lang-menu {
+  position: absolute;
+  top: 42px;
+  right: 0;
+  min-width: 160px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  padding: 6px;
+  z-index: 1000;
+  animation: langFade 0.2s ease-out;
+}
+
+/* Dropdown item */
+.lang-menu > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+/* Hover effect */
+.lang-menu > div:hover {
+  background: #f4f6f8;
+  transform: translateX(2px);
+}
+
+/* Flag */
+.lang-flag {
+  width: 22px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation */
+@keyframes langFade {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lang-current {
+  background: transparent;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.lang-current:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Active flag */
+.lang-flag-current {
+  width: 26px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+}

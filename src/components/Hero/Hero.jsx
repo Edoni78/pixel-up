@@ -1,8 +1,12 @@
 import React from "react";
-import heroVideo from "../../assets/videos/hero.mp4"; 
+import heroVideo from "../../assets/videos/hero.mp4";
 import "./Hero.css";
+import { useLanguage } from "../../context/LanguageContext";
 
 const Hero = () => {
+  const { t } = useLanguage();
+  const hero = t.hero;
+
   return (
     <section className="hero">
       {/* VIDEO BACKGROUND */}
@@ -22,20 +26,19 @@ const Hero = () => {
       <div className="hero__container">
         <div className="hero__content">
           <h1>
-            Websites that <span className="bounce">grow</span> your business
+            {hero.title}{" "}
+            <span className="bounce">{hero.highlight}</span>{" "}
+            {hero.titleEnd}
           </h1>
 
-          <p>
-            PixelUp helps businesses build modern, fast and professional
-            websites that convert visitors into customers.
-          </p>
+          <p>{hero.description}</p>
 
           <div className="hero__actions">
             <a href="#contact" className="btn-primary">
-              Request a Website
+              {hero.actions.primary}
             </a>
             <a href="#services" className="btn-secondary">
-              Our Services
+              {hero.actions.secondary}
             </a>
           </div>
         </div>
